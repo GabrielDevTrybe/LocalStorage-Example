@@ -4,8 +4,6 @@ function WebStorage() {
   const [array, setArray] = useState([]);
   const [name, setName] = useState('');
 
-  console.log(array)
-
   const handleChange = ({ target }) => {
     setName(target.value)
   }
